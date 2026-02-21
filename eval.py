@@ -24,7 +24,7 @@ from scorer import score_mix_llava
 from cli import HuatuoChatbot
 
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel, AutoModelWithLMHead
+from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 os.umask(0)
 
 
